@@ -1,0 +1,30 @@
+{
+    "urls": [
+        {
+            "url": "https://www.przetargi.egospodarka.pl/search.php?submitted=1&status%5B%5D=1&mode%5B%5D=2&mode%5B%5D=1&mode%5B%5D=4&mode%5B%5D=8&or=&publish_date=0&deadline=0&province=3&sort=relevance",
+            "selectors": [
+                "#przetargi-list > tbody > tr:nth-child(2) > td:nth-child(5)",
+                "#przetargi-list > tbody > tr:nth-child(3) > td:nth-child(5)",
+                "#przetargi-list > tbody > tr:nth-child(3) > td:nth-child(5) > a",
+                "#przetargi-list > tbody > tr:nth-child(3)"
+            ]
+        },
+        {
+            "url": "https://www.portalzp.pl/szukaj-przetargow/rg/mazowieckie/rp/bzp/so/pub_desc",
+            "selectors": [
+                "#tendersSearchList > ul > li:nth-child(1)",
+                "#tendersSearchList > ul > li:nth-child(2)",
+                ".tender-item .tTitle",
+                "//li[contains(@class, 'tender-item')]//h3[@class='tTitle']"
+            ]
+        }
+    ],
+    "keywords": [
+        "renowacja",
+        "Renowacja",
+        "remont",
+        "Remont",
+        "us\u0142ug"
+    ],
+    "loop_time": 5
+}
